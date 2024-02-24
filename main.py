@@ -43,8 +43,8 @@ for card in cards:
     fill_color(image, white_color, ystart=518, yend=548, xstart=891, xend=971)
     fill_color(image, white_color, ystart=670, yend=702, xstart=484, xend=770)
     add_text(image, "Ali YILDIRIM", (606, 293), black_color, 27, bold_offset=1)
-    add_text(image, "Lande Kabinet Sistemleri", (35, 348), black_color, 30, bold_offset=1)
-    add_text(image, str(card["price"]), (900, 518), black_color, 28, bold_offset=2)
+    add_text(image, "  TK TUZLASHIPYARD", (35, 348), black_color, 30, bold_offset=1)
+    add_text(image, str(card["price"]), (910, 516), black_color, 32, bold_offset=3)
     add_text(image, card["cardnumber"], (484, 670), black_color, 30, bold_offset=2)
 
     image.save(f"cards/{card['cardnumber']}.png")
